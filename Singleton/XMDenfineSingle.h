@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 #import "XMDefine.h"
 
-@interface XMDenfineSingle : NSObject
+@interface XMDenfineSingle : NSObject<NSCopying>
 
 XMSINGLE_H
 @end
